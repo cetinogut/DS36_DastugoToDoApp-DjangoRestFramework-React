@@ -30,5 +30,6 @@ If using django for backend, you need to do the following 6 things:
     'http://localhost:3000',
     'http://127.0.0.1:3000'
   ]
+  
  6. When using CORS_ORIGIN_WHITELIST, use the URL of the front end app where the GET Or POST request is coming from.
 Another gotcha is ensuring the URL pointing to django ends with a trailing slash.
